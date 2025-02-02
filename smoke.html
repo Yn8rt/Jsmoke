@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jsmoke🚬🚬by Yn8rt</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #F4F9FC; /* 浅蓝色背景 */
+      color: #333; /* 深灰色文字 */
+      min-width: 300px;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 20px;
+      background-color: #3E7CB1; /* 深蓝色 */
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+      font-size: 22px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 12px 25px;
+      margin: 0 15px;
+      border: 1px solid #FF78A5; /* 深粉色边框 */
+      border-radius: 25px;
+      background-color: #FF78A5; /* 深粉色 */
+      color: white; /* 按钮文字为白色 */
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    button:hover {
+      background-color: #FF8CBB; /* 按钮悬停时变为更亮的粉色 */
+      border-color: #FF8CBB; /* 按钮边框颜色匹配 */
+      color: white;
+      transform: translateY(-2px); /* 鼠标悬停时上浮效果 */
+    }
+
+    .links-container {
+      border: 1px solid #B2D1E6; /* 浅蓝色边框 */
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      background-color: #FFFFFF; /* 白色背景 */
+    }
+
+    .links-container h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #3E7CB1; /* 深蓝色标题 */
+    }
+
+    .links-container p, .links-container a {
+      font-size: 14px;
+      word-break: break-word;
+      color: #555; /* 浅灰色文字 */
+    }
+
+    #result {
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #B2D1E6; /* 浅蓝色边框 */
+      background-color: #FFFFFF; /* 白色背景 */
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div id="mainContainer">
+    <h1>Js信息泄露检测🚬🚬</h1>
+    <div class="button-container">
+      <button id="extract">当前页面检测</button>
+      <button id="deepScan">深层JS检测</button>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="smoke.js"></script>
+</body>
+</html>
